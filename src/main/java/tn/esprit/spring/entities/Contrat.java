@@ -23,8 +23,12 @@ public class Contrat implements Serializable {
 	private static final long serialVersionUID = 1L;
 
 	/**
-	 * Ajouter commantaire
+	 * Ajouter commantaire 1
 	 * */
+
+	/**
+	 * Ajouter commantaire 2
+	 */
 	@Id
 	@GeneratedValue(strategy=GenerationType.IDENTITY)
 	private Long reference;
